@@ -19,11 +19,11 @@ public class BarcoMotor extends Barco {
     public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
-
-//    @Override
-//    public int CalcularModulo() {
-//        return super.CalcularModulo()+potencia; 
-//    }
+    
+    @Override
+    public int CalcularModulo() {
+        return super.CalcularModulo()+potencia; 
+    }
 
     @Override
     public void crearBarco() {

@@ -21,10 +21,10 @@ public class Yate extends BarcoMotor {
         this.camarotes = camarotes;
     }
 
-//    @Override
-//    public int CalcularModulo() {
-//        return super.CalcularModulo() + camarotes; 
-//    }
+    @Override
+    public int CalcularModulo() {
+       return super.CalcularModulo() + camarotes; 
+    }
 
     @Override
     public String toString() {

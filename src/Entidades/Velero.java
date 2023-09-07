@@ -21,10 +21,10 @@ public class Velero extends Barco {
         this.mastiles = mastiles;
     }
 
-//    @Override
-//    public int CalcularModulo() {
-//        return super.CalcularModulo() + mastiles; 
-//    }
+    @Override
+    public int CalcularModulo() {
+        return super.CalcularModulo() + mastiles; 
+    }
 
     @Override
     public void crearBarco() {
